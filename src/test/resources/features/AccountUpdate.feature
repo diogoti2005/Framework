@@ -6,7 +6,7 @@ Feature: Modify account
     And user clicks account link menu
     And my-account page is opened
 
-  Scenario Outline: 01 Make sign up form creates account
+  Scenario: 01 Make sign up form creates account
     Given customer enters his new username, email and password in registry form
     And submits his request in registry form
     And Demoqa shop login page is opened
